@@ -17,5 +17,10 @@ Tags ajudam a identificar recursos/grupos de recursos em faturas. Elas utilizam 
 Elas não são herdáveis, o que significa que recursos filhos, de um gruopo de recursos que tem tag por exemplo, não recebem a tag do pai.
 Por exemplo: AZ900_Lab (Grupo de Recursos) e AZ900_LabVNet (Virtual Network do grupo AZ900_Lab)
 
-Azure conta com calculadoras de custo para estimar (aproximadamente) custos dos recursos cloud e comparar com recursos on-Premise atuais:
-Azure Calculator
+Azure conta com calculadoras de custo para estimar (aproximadamente) custos dos recursos cloud:
+
+<a href="[url](https://azure.microsoft.com/en-us/pricing/calculator/)">Azure Calculator</a>
+
+
+Infelizmente a Azure descontinuou o TCO Calculator, que permitia comparação de custos com Estruturas On-premise hipotéticas, e trabalha apenas com Azure Migrate para comparar com estruturas On-Premise descobertas.
+
